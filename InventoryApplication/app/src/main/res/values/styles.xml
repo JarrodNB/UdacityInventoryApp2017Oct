@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemeStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryAppBar</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkStatusBar</item>
+        <item name="colorAccent">@color/colorAccentUI</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="text_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="empty_view_string">Add some prodcuts by hitting the button below!</string>
+    <string name="image_select">Click here to select An Image</string>
+    <string name="product_name">Name</string>
+    <string name="product_description">Description</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="product_price">Price</string>
+    <string name="product_email">Supplier Email</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Delete</string>
+    <string name="order">Order More</string>
+    <string name="add_title">Add Product</string>
+    <string name="edit_title">Edit Product</string>
+    <string name="product_added">Product was successfuly added!</string>
+    <string name="error">There was a problem. </string>
+    <string name="product_updated">Product was successfuly updated!</string>
+    <string name="delete_alert">Are you sure you want to delete this record?</string>
+    <string name="delete_message">Record was deleted!</string>
+    <string name="number_problem">The price or quantity was not entered correctly.</string>
+</resources>
