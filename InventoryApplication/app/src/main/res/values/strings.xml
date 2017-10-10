@@ -1,4 +1,5 @@
 <resources>
+    <string name="application_name">Inventory App</string>
     <string name="empty_view_string">Add some prodcuts by hitting the button below!</string>
     <string name="image_select">Click here to select An Image</string>
     <string name="product_name">Name</string>

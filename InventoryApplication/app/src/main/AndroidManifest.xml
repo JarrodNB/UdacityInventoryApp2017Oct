@@ -3,25 +3,24 @@
     package="com.example.android.inventoryapplication">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
+        android:label="@string/application_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppThemeStyle">
 
-        <!-- android:label="@string/app_name" -->
-        <activity android:name=".MainActivity">
-
-            <!--
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"
-            -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/application_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -31,7 +30,9 @@
             android:authorities="com.example.android.inventoryapplication"
             android:exported="false" />
 
-        <activity android:name=".AddProductActivity" />
+        <activity
+            android:name=".AddProductActivity"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
