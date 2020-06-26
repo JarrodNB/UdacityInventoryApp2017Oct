@@ -1,1 +1,1 @@
-# UdacityInventoryApp2017Oct
+Android project for Udacity Nanodegree.
